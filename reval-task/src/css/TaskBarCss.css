@@ -1,0 +1,43 @@
+/* TaskBarCss.css */
+.navbar-custom {
+    background-color: darkblue;
+    color: white;
+    display: flex;
+    justify-content: space-between; 
+    padding: 0 20px; 
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .navbar-custom .navbar-brand {
+    color: white;
+  }
+  
+  .navbar-custom .navbar-toggler {
+    border-color: white;
+  }
+  
+  .navbar-custom .navbar-collapse {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .navbar-custom .nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-custom .nav-link, .navbar-custom .dropdown-item {
+    color: white;
+  }
+  
+  .navbar-custom .dropdown-menu {
+    background-color: darkblue;
+    color: white;
+  }
+  
+  .navbar-custom .dropdown-item:hover {
+    background-color: lightblue;
+    color: darkblue;
+  }
+  
